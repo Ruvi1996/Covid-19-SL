@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "9TkJOVRnbq6OvnxlbkE90rQelHy0zUazDUIu3RW4zRr6nc0r97vesVLKOImEyqEwckAYMkdp9cuwMFsCJqTWYw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ruvindras\\source\\repos\\Corona\\Corona\\Corona\\Corona.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ruvindras\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\ruvindras\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ruvindras\\.nuget\\packages\\xamarin.essentials\\1.5.1\\xamarin.essentials.1.5.1.nupkg.sha512",
+    "C:\\Users\\ruvindras\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\ruvindras\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\ruvindras\\.nuget\\packages\\xamarin.forms\\4.5.0.396\\xamarin.forms.4.5.0.396.nupkg.sha512"
+  ],
+  "logs": []
+}

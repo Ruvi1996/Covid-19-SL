@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             mc:Ignorable="d"
+             x:Class="Corona.MainPage"
+             BackgroundColor="#081950"
+             Title="Sri Lanka's Situation">
+
+    <StackLayout>
+        <Label Text="Sri Lanka's Situation" TextColor="#EEEEEE" FontSize="30" HorizontalTextAlignment="Start" Padding="20,20,20,5" FontAttributes="Bold" FontFamily="{StaticResource PoppinsSemiBold}"/>
+        <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}" x:Name="refreshView">
+            <ScrollView>
+                <StackLayout Padding="20" Spacing="20">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="70"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="5"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Frame Grid.Row="0" Grid.Column="0"
+                        BackgroundColor="#22236D"
+                       BorderColor="#4A34A8"
+                       CornerRadius="50"
+                       HeightRequest="60"
+                       WidthRequest="60"
+                       IsClippedToBounds="True"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Padding="5">
+                            <ffimageloading:CachedImage HorizontalOptions="Center" 
+                                                VerticalOptions="Center"
+			                                    WidthRequest="30" HeightRequest="30"
+			                                    DownsampleToViewSize="true"
+			                                    Source = "hospital.png"/>
+                        </Frame>
+
+                        <Grid Grid.Column="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="18"/>
+                                <RowDefinition Height="50"/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" Text="Total Cases" Margin="0,-2,0,0" FontSize="15" TextColor="#B5B5B5" FontFamily="{StaticResource PoppinsRegular}"/>
+                            <Label Grid.Row="1" Text="0" x:Name="lbl1" Margin="0,-6,0,0" FontSize="50" TextColor="#EEEEEE" FontAttributes="Bold" FontFamily="{StaticResource PoppinsMedium}"/>
+
+                        </Grid>
+                    </Grid>
+
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="70"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="5"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Frame Grid.Row="0" Grid.Column="0"
+                        BackgroundColor="#22567C"
+                       BorderColor="#49B1CC"
+                       CornerRadius="50"
+                       HeightRequest="60"
+                       WidthRequest="60"
+                       IsClippedToBounds="True"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Padding="5">
+                            <ffimageloading:CachedImage HorizontalOptions="Center" 
+                                                VerticalOptions="Center"
+			                                    WidthRequest="30" HeightRequest="30"
+			                                    DownsampleToViewSize="true"
+			                                    Source = "ambulance.png"/>
+                        </Frame>
+
+                        <Grid Grid.Column="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="18"/>
+                                <RowDefinition Height="50"/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" Text="New Cases" Margin="0,-2,0,0" FontSize="15" TextColor="#B5B5B5" FontFamily="{StaticResource PoppinsRegular}"/>
+                            <Label Grid.Row="1" Text="0" x:Name="lbl2" Margin="0,-6,0,0" FontSize="50" TextColor="#EEEEEE" FontAttributes="Bold" FontFamily="{StaticResource PoppinsMedium}"/>
+
+                        </Grid>
+                    </Grid>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="70"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="5"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Frame Grid.Row="0" Grid.Column="0"
+                        BackgroundColor="#596264"
+                       BorderColor="#D2CF91"
+                       CornerRadius="50"
+                       HeightRequest="60"
+                       WidthRequest="60"
+                       IsClippedToBounds="True"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Padding="5">
+                            <ffimageloading:CachedImage HorizontalOptions="Center" 
+                                                VerticalOptions="Center"
+			                                    WidthRequest="30" HeightRequest="30"
+			                                    DownsampleToViewSize="true"
+			                                    Source = "patient.png"/>
+                        </Frame>
+
+                        <Grid Grid.Column="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="18"/>
+                                <RowDefinition Height="50"/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" Text="Total Number of Individuals in Hospitals" Margin="0,-2,0,0" FontSize="15" TextColor="#B5B5B5" FontFamily="{StaticResource PoppinsRegular}"/>
+                            <Label Grid.Row="1" Text="0" x:Name="lbl3" Margin="0,-6,0,0" FontSize="50" TextColor="#EEEEEE" FontAttributes="Bold" FontFamily="{StaticResource PoppinsMedium}"/>
+
+                        </Grid>
+                    </Grid>
+
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="70"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="5"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Frame Grid.Row="0" Grid.Column="0"
+                        BackgroundColor="#48235D"
+                       BorderColor="#A83481"
+                       CornerRadius="50"
+                       HeightRequest="60"
+                       WidthRequest="60"
+                       IsClippedToBounds="True"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Padding="5">
+                            <ffimageloading:CachedImage HorizontalOptions="Center" 
+                                                VerticalOptions="Center"
+			                                    WidthRequest="30" HeightRequest="30"
+			                                    DownsampleToViewSize="true"
+			                                    Source = "deadbody.png"/>
+                        </Frame>
+
+                        <Grid Grid.Column="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="18"/>
+                                <RowDefinition Height="50"/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" Text="Deaths" Margin="0,-2,0,0" FontSize="15" TextColor="#B5B5B5" FontFamily="{StaticResource PoppinsRegular}"/>
+                            <Label Grid.Row="1" Text="0" x:Name="lbl4" Margin="0,-6,0,0" FontSize="50" TextColor="#EEEEEE" FontAttributes="Bold" FontFamily="{StaticResource PoppinsMedium}"/>
+
+                        </Grid>
+                    </Grid>
+                    <!--<StackLayout Orientation="Horizontal" Spacing="12">
+                        <Frame BackgroundColor="#48235D"
+                       BorderColor="#A83481"
+                       CornerRadius="50"
+                       HeightRequest="60"
+                       WidthRequest="60"
+                       IsClippedToBounds="True"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"
+                       Padding="5">
+                            <ffimageloading:CachedImage HorizontalOptions="Center" 
+                                                VerticalOptions="Center"
+			                                    WidthRequest="30" HeightRequest="30"
+			                                    DownsampleToViewSize="true"
+			                                    Source = "deadbody.png"/>
+                        </Frame>
+                        <FlexLayout Direction="Column" JustifyContent="SpaceBetween">
+                            <Label Text="Deaths" FontSize="15" TextColor="#B5B5B5" FontFamily="{StaticResource PoppinsRegular}"/>
+                            <Label Text="0" x:Name="lbl4" HorizontalOptions="Center" VerticalOptions="Center" FontSize="54" TextColor="#EEEEEE" FontAttributes="Bold" FontFamily="{StaticResource PoppinsMedium}"/>
+                        </FlexLayout>
+                    </StackLayout>-->
+
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="70"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="5"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Frame Grid.Row="0" Grid.Column="0"
+                        BackgroundColor="#195048"
+                       BorderColor="#34A84B"
+                       CornerRadius="50"
+                       HeightRequest="60"
+                       WidthRequest="60"
+                       IsClippedToBounds="True"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Padding="5">
+                            <ffimageloading:CachedImage HorizontalOptions="Center" 
+                                                VerticalOptions="Center"
+			                                    WidthRequest="30" HeightRequest="30"
+			                                    DownsampleToViewSize="true"
+			                                    Source = "emergencyexit.png"/>
+                        </Frame>
+
+                        <Grid Grid.Column="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="18"/>
+                                <RowDefinition Height="50"/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" Text="Recovered and Discharged" Margin="0,-2,0,0" FontSize="15" TextColor="#B5B5B5" FontFamily="{StaticResource PoppinsRegular}"/>
+                            <Label Grid.Row="1" Text="0" x:Name="lbl5" Margin="0,-6,0,0" FontSize="50" TextColor="#EEEEEE" FontAttributes="Bold" FontFamily="{StaticResource PoppinsMedium}"/>
+
+                        </Grid>
+                    </Grid>
+
+                    
+                </StackLayout>
+            </ScrollView>
+        </RefreshView>
+    </StackLayout>
+    
+
+
+</ContentPage>

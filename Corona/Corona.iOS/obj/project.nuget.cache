@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jn0cDfgfoPuAAPfROqN/wYy/MYVq2nT7hNJgOxa9Uy6hU+wcG8rrf79HZpXuEqCl2nkhBomXev/5d5pRRf8GnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ruvindras\\source\\repos\\Corona\\Corona\\Corona.iOS\\Corona.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ruvindras\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\ruvindras\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
+    "C:\\Users\\ruvindras\\.nuget\\packages\\xamarin.essentials\\1.5.1\\xamarin.essentials.1.5.1.nupkg.sha512",
+    "C:\\Users\\ruvindras\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\ruvindras\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\ruvindras\\.nuget\\packages\\xamarin.forms\\4.5.0.396\\xamarin.forms.4.5.0.396.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+C:\Users\ruvindras\source\repos\Corona\Corona\Corona\bin\Release\netstandard2.0\Corona.deps.json
+C:\Users\ruvindras\source\repos\Corona\Corona\Corona\bin\Release\netstandard2.0\Corona.dll
+C:\Users\ruvindras\source\repos\Corona\Corona\Corona\bin\Release\netstandard2.0\ref\Corona.dll
+C:\Users\ruvindras\source\repos\Corona\Corona\Corona\bin\Release\netstandard2.0\Corona.pdb
+C:\Users\ruvindras\source\repos\Corona\Corona\Corona\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\ruvindras\source\repos\Corona\Corona\Corona\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ruvindras\source\repos\Corona\Corona\Corona\obj\Release\netstandard2.0\Corona.csproj.CoreCompileInputs.cache
+C:\Users\ruvindras\source\repos\Corona\Corona\Corona\obj\Release\netstandard2.0\Corona.AssemblyInfoInputs.cache
+C:\Users\ruvindras\source\repos\Corona\Corona\Corona\obj\Release\netstandard2.0\Corona.AssemblyInfo.cs
+C:\Users\ruvindras\source\repos\Corona\Corona\Corona\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\ruvindras\source\repos\Corona\Corona\Corona\obj\Release\netstandard2.0\Corona.dll
+C:\Users\ruvindras\source\repos\Corona\Corona\Corona\obj\Release\netstandard2.0\ref\Corona.dll
+C:\Users\ruvindras\source\repos\Corona\Corona\Corona\obj\Release\netstandard2.0\Corona.pdb
+C:\Users\ruvindras\source\repos\Corona\Corona\Corona\obj\Release\netstandard2.0\Corona.csprojAssemblyReference.cache
